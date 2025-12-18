@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  background: #f3d0f3;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.wrap { width: min(960px, 95vw); text-align: center; }
+
+canvas {
+  width: 100%;
+  height: auto;
+  background: rgb(255, 255, 255);
+  border: 2px solid #111;
+  border-radius: 12px;
+}
+
+.hint { color: #444; }
